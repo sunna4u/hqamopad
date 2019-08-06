@@ -2,7 +2,6 @@ s4u = jQuery.noConflict(true);
  // quick dd-listen flash
 s4u(function () {
     //initialize
-    //testilize
     s4u("#sunna4u-p").flash({
         swf: 'https://ia601507.us.archive.org/5/items/sunna4u_SWF/sunna4u.swf',
         height: 275,
@@ -43,4 +42,4 @@ s4u(document).ready(function() {
     var uri = "http://archive.org/download/"+rct+"/"+suratu+""+den+"."+format+" ";
     window.location.href = uri;
   });
-}); 
+});
